@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-100 py-4 relative'>
-      <div className='container mx-auto px-4 text-center'></div>
+    <footer className="bg-gray-100 py-4 relative">
+      <div className="container mx-auto px-4 text-center font-mono"></div>
       <p>&copy; 2025 Enzo Surhati. All rights reserved.</p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
