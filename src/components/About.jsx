@@ -9,6 +9,7 @@ import Bootstrap from "../assets/Bootstrap.png";
 import Nodejs from "../assets/Nodejs.png";
 import Express from "../assets/Express.png";
 import NextJs from "../assets/NextJs.png";
+import Liquid from "../assets/Liquid.png";
 
 const About = () => {
   return (
@@ -49,6 +50,10 @@ const About = () => {
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
                     <img src={Javascript} alt="" className="w-10" />
                     <span className="font-semibold">Javascript</span>
+                  </div>
+                  <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
+                    <img src={Liquid} alt="" className="w-10" />
+                    <span className="font-semibold">Liquid</span>
                   </div>
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
                     <img src={ReactLogo} alt="" className="w-8 rounded-full" />
